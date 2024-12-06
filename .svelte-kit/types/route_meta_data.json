@@ -1,0 +1,35 @@
+{
+	"/": [],
+	"/about": [],
+	"/admin": [],
+	"/admin/bookings": [],
+	"/admin/customers": [],
+	"/admin/settings": [],
+	"/admin/trips": [],
+	"/admin/trips/create": [],
+	"/api/auth": [
+		"src/routes/api/auth/+server.ts"
+	],
+	"/api/auth/logout": [
+		"src/routes/api/auth/logout/+server.ts"
+	],
+	"/api/bookings": [
+		"src/routes/api/bookings/+server.ts"
+	],
+	"/api/generate-ticket": [
+		"src/routes/api/generate-ticket/+server.ts"
+	],
+	"/api/payment": [
+		"src/routes/api/payment/+server.ts"
+	],
+	"/api/trips": [
+		"src/routes/api/trips/+server.ts"
+	],
+	"/api/uploads": [
+		"src/routes/api/uploads/+server.ts"
+	],
+	"/booking/confirmation/[referanceId]": [],
+	"/test": [],
+	"/trips": [],
+	"/trips/[tripId]": []
+}

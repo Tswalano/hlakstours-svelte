@@ -26,6 +26,9 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const SUPERBASE_DATABASE_URL: string;
+	export const SUPABASE_URL: string;
+	export const SUPABASE_ANON_KEY: string;
 	export const NVM_RC_VERSION: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
@@ -48,6 +51,7 @@ declare module '$env/static/private' {
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const SSH_AUTH_SOCK: string;
+	export const VSCODE_PROFILE_INITIALIZED: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const PATH: string;
@@ -83,8 +87,8 @@ declare module '$env/static/private' {
 	export const npm_config_user_agent: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
-	export const HOMEBREW_CELLAR: string;
 	export const INFOPATH: string;
+	export const HOMEBREW_CELLAR: string;
 	export const SECURITYSESSIONID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
@@ -121,6 +125,9 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		SUPERBASE_DATABASE_URL: string;
+		SUPABASE_URL: string;
+		SUPABASE_ANON_KEY: string;
 		NVM_RC_VERSION: string;
 		TERM_PROGRAM: string;
 		NODE: string;
@@ -143,6 +150,7 @@ declare module '$env/dynamic/private' {
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		SSH_AUTH_SOCK: string;
+		VSCODE_PROFILE_INITIALIZED: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		PATH: string;
@@ -178,8 +186,8 @@ declare module '$env/dynamic/private' {
 		npm_config_user_agent: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
-		HOMEBREW_CELLAR: string;
 		INFOPATH: string;
+		HOMEBREW_CELLAR: string;
 		SECURITYSESSIONID: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;

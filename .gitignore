@@ -41,6 +41,7 @@ temp/
 .next/
 .nuxt/
 .cache/
+.svelte-kit/
 
 # Misc
 .DS_Store
@@ -49,3 +50,4 @@ temp/
 .env.development.local
 .env.test.local
 .env.production.local
+.svelte-kit/*
